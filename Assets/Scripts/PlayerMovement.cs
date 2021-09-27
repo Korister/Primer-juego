@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     // Variable para guardar el Transform (posision y rotacion) de un objeto y el componente Rigidbody (fisicas) del objeto con este script
     private Transform Camera;    
     private Rigidbody Physics;
-    private Animator anim;
+    //private Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
         Camera = transform.Find("PlayerCamera");
         // Busca el componente Rigidbody del objeto con este script
         Physics = GetComponent<Rigidbody>();
-        anim = GetComponent<Animator>();
+        //anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -62,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
             Camera.localEulerAngles = Vector3.right * angle;
         }
 
-        if(movJoy.Vertical >= 0.1)
+        /*if(movJoy.Vertical >= 0.1)
         {
             run = 1;
         }
@@ -88,6 +88,6 @@ public class PlayerMovement : MonoBehaviour
         }
 
         anim.SetFloat("Run", run);
-        anim.SetFloat("RunLeft", runLeft);
+        anim.SetFloat("RunLeft", runLeft);*/
     }
 }

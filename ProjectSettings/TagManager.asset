@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Options
+  - Mission
   layers:
   - Default
   - TransparentFX

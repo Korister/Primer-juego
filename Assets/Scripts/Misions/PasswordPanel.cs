@@ -7,6 +7,7 @@ public class PasswordPanel : MonoBehaviour
 {
     public TextMeshProUGUI display;
     public TextMeshProUGUI password;
+    public GameObject playerCanvas;
 
     public void Start()
     {
@@ -44,6 +45,7 @@ public class PasswordPanel : MonoBehaviour
         {
             display.color = Color.green;
             display.text = "APROVED";
+            playerCanvas.gameObject.SetActive(true);
             Destroy(gameObject, 1.0f);
         }
         else

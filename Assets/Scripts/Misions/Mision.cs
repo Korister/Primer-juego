@@ -6,9 +6,9 @@ public class Mision : MonoBehaviour
 {
     public GameObject button;
     public GameObject missionPrefab;
+    public GameObject playerCanvas;
     public bool playerClose;
     public bool mission;
-    public bool missionButton;
 
     // Start is called before the first frame update
     void Start()
@@ -44,6 +44,7 @@ public class Mision : MonoBehaviour
     public void ActivateMission()
     {
             Instantiate(missionPrefab);
+            playerCanvas.gameObject.SetActive(false);
     }
 
     private bool isMissionActive()
