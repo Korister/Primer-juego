@@ -397,12 +397,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &1824843907 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 5064120546399496890, guid: 49c516905d534d5488f6ec55b13fce07,
-    type: 3}
-  m_PrefabInstance: {fileID: 2063887989}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2063887989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -444,6 +438,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792796427690816789, guid: 49c516905d534d5488f6ec55b13fce07,
+        type: 3}
+      propertyPath: m_TagString
+      value: CanvasPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 5064120546638553664, guid: 49c516905d534d5488f6ec55b13fce07,
         type: 3}
@@ -539,7 +538,7 @@ PrefabInstance:
         type: 3}
       propertyPath: missionPrefab
       value: 
-      objectReference: {fileID: 6195590019675951817, guid: 76a18080b0e05de46aa602d0b465ba18,
+      objectReference: {fileID: 5827895364983916877, guid: 76a18080b0e05de46aa602d0b465ba18,
         type: 3}
     - target: {fileID: 7725827357441416898, guid: 46650eb71f7f499488a48df8719814b4,
         type: 3}
@@ -550,6 +549,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: PanelPassword
+      objectReference: {fileID: 0}
+    - target: {fileID: 7725827357746778705, guid: 46650eb71f7f499488a48df8719814b4,
+        type: 3}
+      propertyPath: m_TagString
+      value: MissionPanel
       objectReference: {fileID: 0}
     - target: {fileID: 7725827357746778717, guid: 46650eb71f7f499488a48df8719814b4,
         type: 3}
@@ -608,82 +612,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46650eb71f7f499488a48df8719814b4, type: 3}
---- !u!1001 &8076960176931946470
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 289.7691
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 134.27351
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -126.74828
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 192588686608852189, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 800893050358754995, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: playerCanvas
-      value: 
-      objectReference: {fileID: 2063887990}
-    - target: {fileID: 1682260245838266625, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_Camera
-      value: 
-      objectReference: {fileID: 1824843907}
-    - target: {fileID: 5827895364983916877, guid: 76a18080b0e05de46aa602d0b465ba18,
-        type: 3}
-      propertyPath: m_Name
-      value: MissionPassword
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 76a18080b0e05de46aa602d0b465ba18, type: 3}

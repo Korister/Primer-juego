@@ -8,12 +8,10 @@ public class Mision : MonoBehaviour
     public GameObject missionPrefab;
     public GameObject playerCanvas;
     public bool playerClose;
-    public bool mission;
 
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -50,5 +48,10 @@ public class Mision : MonoBehaviour
     private bool isMissionActive()
     {
         return playerClose && !GameObject.FindWithTag("Mission");
+    }
+
+    public void ActivateCanvas()
+    {
+        playerCanvas.gameObject.SetActive(true);
     }
 }

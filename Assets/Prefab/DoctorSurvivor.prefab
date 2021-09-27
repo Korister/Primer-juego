@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1283060427738350469}
   m_Layer: 0
   m_Name: CanvasPlayer
-  m_TagString: Untagged
+  m_TagString: CanvasPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -501,7 +501,7 @@ GameObject:
   - component: {fileID: 7056442636325477083}
   m_Layer: 0
   m_Name: MissionButton
-  m_TagString: Untagged
+  m_TagString: MissionButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
