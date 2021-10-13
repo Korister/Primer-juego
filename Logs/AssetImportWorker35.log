@@ -9,17 +9,17 @@ C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker13
+AssetImportWorker35
 -projectPath
 C:/Users/TOSHIBA/Primer juego
 -logFile
-Logs/AssetImportWorker13.log
+Logs/AssetImportWorker35.log
 -srvPort
 63669
 Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
 C:/Users/TOSHIBA/Primer juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 669.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 935.24 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
@@ -38,37 +38,38 @@ Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Mo
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Registered in 0.013175 seconds.
-Refreshing native plugins compatible for Editor in 597.58 ms, found 3 plugins.
+Registered in 0.015557 seconds.
+Refreshing native plugins compatible for Editor in 652.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.415 seconds
+- Completed reload, in 10.136 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9417ms)
-		BeginReloadAssembly (476ms)
+	ReloadAssembly (10139ms)
+		BeginReloadAssembly (484ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (5ms)
-		EndReloadAssembly (3708ms)
-			LoadAssemblies (470ms)
+			CreateAndSetChildDomain (6ms)
+		EndReloadAssembly (4102ms)
+			LoadAssemblies (459ms)
 			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1348ms)
+			SetupTypeCache (1516ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (230ms)
-			SetupLoadedEditorAssemblies (1687ms)
+			RebuildScriptCaches (261ms)
+			SetupLoadedEditorAssemblies (1915ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (598ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (805ms)
-				ProcessInitializeOnLoadMethodAttributes (258ms)
+				RefreshPlugins (653ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (932ms)
+				ProcessInitializeOnLoadMethodAttributes (298ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.058745 seconds.
+Registered in 0.079151 seconds.
+Begin MonoManager ReloadAssembly

@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 8060 MB
+OS: 'Windows 10 Education; OS build 19042.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 3574 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,226 +11,31 @@ C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
 -name
 AssetImportWorker17
 -projectPath
-C:/Users/Acer/Documents/GitHub/Primer-juego
+C:/Users/TOSHIBA/Primer juego
 -logFile
 Logs/AssetImportWorker17.log
 -srvPort
-60879
-Successfully changed project path to: C:/Users/Acer/Documents/GitHub/Primer-juego
-C:/Users/Acer/Documents/GitHub/Primer-juego
+63669
+Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
+C:/Users/TOSHIBA/Primer juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 217.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5258.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Acer/Documents/GitHub/Primer-juego/Assets
+[Subsystems] Discovering subsystems at path C:/Users/TOSHIBA/Primer juego/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
-    Vendor:   Intel
-    VRAM:     4030 MB
-    Driver:   24.20.100.6286
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6310 Graphics (ID=0x9802)
+    Vendor:   ATI
+    VRAM:     373 MB
+    Driver:   15.201.1151.0
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002544 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 146.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.075 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2075ms)
-		BeginReloadAssembly (100ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (797ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (295ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (367ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (146ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.016427 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.572 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3573ms)
-		BeginReloadAssembly (255ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (3198ms)
-			LoadAssemblies (1611ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (753ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (108ms)
-			SetupLoadedEditorAssemblies (562ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (404ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.31 seconds
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3333 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.5 MB.
-System memory in use after: 121.7 MB.
-
-Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3761.
-Total: 3.344800 ms (FindLiveObjects: 0.299700 ms CreateObjectMapping: 0.202300 ms MarkObjects: 2.733400 ms  DeleteObjects: 0.107900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Sprites/Structures/Cuartos del juegp.fbx
-  artifactKey: Guid(649804150d182cc40ba20e4099c62021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Cuartos del juegp.fbx using Guid(649804150d182cc40ba20e4099c62021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05ea5e520cf641b0ae93c1f5f8ba8c2') in 5.581850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Sprites/Structures/Cortinas distintas.fbx
-  artifactKey: Guid(976b5a4da7d387c42b58720b436dca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Cortinas distintas.fbx using Guid(976b5a4da7d387c42b58720b436dca78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2798f772550691dc6bcb7759a7f892ee') in 1.731121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000312 seconds.
-  path: Assets/Sprites/Structures/sillas de sala de espera.fbx
-  artifactKey: Guid(2a29fbf8c343e0a4cb9c8ecaa27eae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/sillas de sala de espera.fbx using Guid(2a29fbf8c343e0a4cb9c8ecaa27eae04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873c24128b8998ca1acec4000ce6af68') in 1.301240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Sprites/Structures/Puertas principales.fbx
-  artifactKey: Guid(ae48e7de54dcaf249b89171353c7e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Puertas principales.fbx using Guid(ae48e7de54dcaf249b89171353c7e74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b86ed7f6ced016a3e4b60b4261a2c0') in 0.309161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/Sprites/Structures/Piso del juegp.fbx
-  artifactKey: Guid(946f634684a2d3b489adf92243d5bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Piso del juegp.fbx using Guid(946f634684a2d3b489adf92243d5bbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967a13899c66bdb6530a9d7da2dc1218') in 0.175099 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Sprites/Structures/Farmacia del juegp.fbx
-  artifactKey: Guid(a5fa408f1d4ada646a3aeb597c8554d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Farmacia del juegp.fbx using Guid(a5fa408f1d4ada646a3aeb597c8554d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bb81aa97d379da5b99d7ea0cc3b9c8') in 2.333700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Sprites/Structures/moneda.fbx
-  artifactKey: Guid(c5683bbd2a22a0f409b07836fc297fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/moneda.fbx using Guid(c5683bbd2a22a0f409b07836fc297fc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67ccc112a99a166c85b7d5055493606') in 0.197463 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Sprites/Structures/Recepcion del juegp.fbx
-  artifactKey: Guid(9f06d5a1aef558342be42c886129ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Recepcion del juegp.fbx using Guid(9f06d5a1aef558342be42c886129ec77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580947dbf6d06a0e8a134a324f5d5ac6') in 1.376699 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Sprites/Structures/quirofano.fbx
-  artifactKey: Guid(382438f47063a4e4590f4a5b163bb364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/quirofano.fbx using Guid(382438f47063a4e4590f4a5b163bb364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b236d097515df95d2c14808431f604a8') in 0.946460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/Sprites/Structures/camilla 2 de hospital original.fbx
-  artifactKey: Guid(c83686cef6f00ba4fa40cf7b1d92ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/camilla 2 de hospital original.fbx using Guid(c83686cef6f00ba4fa40cf7b1d92ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13e64cd2a6e59bca3ab4845893127c2') in 0.414891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Sprites/Structures/Cortinas del juego uwu.blend1.fbx
-  artifactKey: Guid(2cb4de62accca3747bfb4d875e5c783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Cortinas del juego uwu.blend1.fbx using Guid(2cb4de62accca3747bfb4d875e5c783c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085edeabf937eda3a158915105abad4b') in 1.013210 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Sprites/Structures/Blender camilla de hospital original.fbx
-  artifactKey: Guid(10e876127160cca40a7cc50aafc9027d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Blender camilla de hospital original.fbx using Guid(10e876127160cca40a7cc50aafc9027d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c43230e45311f2ad51624e9880cb2a') in 0.516575 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Sprites/Structures/cajonera.fbx
-  artifactKey: Guid(542177f236d30704ea83ad33450a75e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/cajonera.fbx using Guid(542177f236d30704ea83ad33450a75e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c489d2015b2f7cbccbd3bf9a7cc44ac6') in 0.430550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Sprites/Structures/linterna del juego uwu.blend1.fbx
-  artifactKey: Guid(0e8acca2d5c7413479f9d52392f0f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/linterna del juego uwu.blend1.fbx using Guid(0e8acca2d5c7413479f9d52392f0f4a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e01f4b57fc5a1000138494a66fb33') in 0.382273 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Sprites/Structures/estanteria del juego.fbx
-  artifactKey: Guid(1e7b8fb5dbad5ac408ab4ea9dd1ab922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/estanteria del juego.fbx using Guid(1e7b8fb5dbad5ac408ab4ea9dd1ab922) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec5add7837c08de9a6031160c6b7ea3') in 1.174237 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Sprites/Structures/Mesa.fbx
-  artifactKey: Guid(38c98bc08b83b0e4d8f6efd5315aded8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Mesa.fbx using Guid(38c98bc08b83b0e4d8f6efd5315aded8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0f9fe8cf93041471fb0210edd9ccb0') in 0.155198 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Sprites/Structures/perchero de suero.fbx
-  artifactKey: Guid(095e47f6a10c9ab4c9ff11cc51360a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/perchero de suero.fbx using Guid(095e47f6a10c9ab4c9ff11cc51360a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab772f2e88237ce982a27c6117a5050') in 0.179488 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.053232 seconds.
