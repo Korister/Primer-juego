@@ -14,9 +14,12 @@ public class Server : MonoBehaviourPunCallbacks
 
     string gameVersion = "1";
 
-    [Tooltip("The maximum number of player per room. When a room is full, it can't be joined by new players, and so new room will be created")]
     [SerializeField]
     private byte maxPlayersRoom = 5;
+    [SerializeField]
+    private GameObject controlPanel;
+    [SerializeField]
+    private GameObject progressText;
 
     #endregion 
 
@@ -30,7 +33,8 @@ public class Server : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        Connect();
+        progressText.SetActive(false);
+        controlPanel.SetActive(true);
     }
 
     #endregion
@@ -39,6 +43,8 @@ public class Server : MonoBehaviourPunCallbacks
 
     public void Connect()
     {
+        progressText.SetActive(true);
+        controlPanel.SetActive(false);
         if(PhotonNetwork.IsConnected)
         {
             PhotonNetwork.JoinRandomRoom();
@@ -75,6 +81,8 @@ public class Server : MonoBehaviourPunCallbacks
 
     public override void OnDisconnected(DisconnectCause cause)
     {
+        progressText.SetActive(false);
+        controlPanel.SetActive(true);
         Debug.LogWarningFormat("OnDisconnected() was called by PUN with reason {0}", cause);
     }
 

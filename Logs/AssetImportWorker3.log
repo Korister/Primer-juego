@@ -15,11 +15,11 @@ C:/Users/TOSHIBA/Primer juego
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-53645
+52045
 Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
 C:/Users/TOSHIBA/Primer juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 4346.54 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4591.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
