@@ -77,6 +77,7 @@ public class Server : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         Debug.Log("OnJoinedRoom() called by PUN. Now this client is in a room");
+        PhotonNetwork.LoadLevel(1);
     }
 
     public override void OnDisconnected(DisconnectCause cause)

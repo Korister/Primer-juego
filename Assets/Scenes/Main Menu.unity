@@ -274,7 +274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &85693957
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2823,6 +2823,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxPlayersRoom: 5
+  controlPanel: {fileID: 0}
+  progressText: {fileID: 0}
 --- !u!1 &1255012726
 GameObject:
   m_ObjectHideFlags: 0
