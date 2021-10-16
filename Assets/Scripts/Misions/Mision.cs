@@ -9,9 +9,15 @@ public class Mision : MonoBehaviour
     public GameObject playerCanvas;
     public bool playerClose;
 
+    void Awake()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
+        button = GameObject.FindWithTag("MissionButton");
     }
 
     // Update is called once per frame

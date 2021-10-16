@@ -12,6 +12,7 @@ public class Server : MonoBehaviourPunCallbacks
 
     #region Private Fields
 
+    bool isConnecting;
     string gameVersion = "1";
 
     [SerializeField]
@@ -51,7 +52,7 @@ public class Server : MonoBehaviourPunCallbacks
         }
         else
         {
-            PhotonNetwork.ConnectUsingSettings();
+            isConnecting = PhotonNetwork.ConnectUsingSettings();
             PhotonNetwork.GameVersion = gameVersion;
         }
     }
@@ -62,9 +63,13 @@ public class Server : MonoBehaviourPunCallbacks
 
     public override void OnConnectedToMaster()
     {
-        Debug.Log("OnConnectedToMaster() was called by PUN");
+        if(isConnecting)
+        {
+            Debug.Log("OnConnectedToMaster() was called by PUN");
 
-        PhotonNetwork.JoinRandomRoom();
+            PhotonNetwork.JoinRandomRoom();
+            isConnecting = false;
+        }
     }
 
     public override void OnJoinRandomFailed(short returnCode, string message)
@@ -84,6 +89,7 @@ public class Server : MonoBehaviourPunCallbacks
     {
         progressText.SetActive(false);
         controlPanel.SetActive(true);
+        isConnecting = false;
         Debug.LogWarningFormat("OnDisconnected() was called by PUN with reason {0}", cause);
     }
 

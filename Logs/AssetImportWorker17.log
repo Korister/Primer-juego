@@ -15,11 +15,11 @@ C:/Users/TOSHIBA/Primer juego
 -logFile
 Logs/AssetImportWorker17.log
 -srvPort
-53762
+62529
 Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
 C:/Users/TOSHIBA/Primer juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1123.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 720.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,40 +35,40 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Registered in 0.014545 seconds.
-Refreshing native plugins compatible for Editor in 672.26 ms, found 3 plugins.
+Registered in 0.010051 seconds.
+Refreshing native plugins compatible for Editor in 1000.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.887 seconds
+- Completed reload, in 15.203 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11889ms)
-		BeginReloadAssembly (548ms)
+	ReloadAssembly (15205ms)
+		BeginReloadAssembly (442ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (6ms)
-		EndReloadAssembly (4374ms)
-			LoadAssemblies (525ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1697ms)
+			CreateAndSetChildDomain (5ms)
+		EndReloadAssembly (5391ms)
+			LoadAssemblies (423ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (2229ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (262ms)
-			SetupLoadedEditorAssemblies (1975ms)
+			RebuildScriptCaches (261ms)
+			SetupLoadedEditorAssemblies (2475ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (116ms)
 				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (673ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (928ms)
-				ProcessInitializeOnLoadMethodAttributes (345ms)
+				RefreshPlugins (1001ms)
+				BeforeProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (1056ms)
+				ProcessInitializeOnLoadMethodAttributes (287ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (2ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.073900 seconds.
+Registered in 0.060558 seconds.
