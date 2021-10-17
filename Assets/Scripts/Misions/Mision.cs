@@ -4,20 +4,19 @@ using UnityEngine;
 
 public class Mision : MonoBehaviour
 {
-    public GameObject button;
+    public GameObject button = GameObject.FindWithTag("MissionButton");
     public GameObject missionPrefab;
     public GameObject playerCanvas;
     public bool playerClose;
 
     void Awake()
     {
-        
+        button = GameObject.FindWithTag("MissionButton");
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        button = GameObject.FindWithTag("MissionButton");
     }
 
     // Update is called once per frame
@@ -45,12 +44,6 @@ public class Mision : MonoBehaviour
         }
     }
 
-    public void ActivateMission()
-    {
-            Instantiate(missionPrefab);
-            playerCanvas.gameObject.SetActive(false);
-    }
-
     private bool isMissionActive()
     {
         return playerClose && !GameObject.FindWithTag("Mission");
@@ -59,5 +52,11 @@ public class Mision : MonoBehaviour
     public void ActivateCanvas()
     {
         playerCanvas.gameObject.SetActive(true);
+    }
+
+    public void ActivatorMission()
+    {
+        playerCanvas.gameObject.SetActive(false);
+        Instantiate(missionPrefab);
     }
 }
