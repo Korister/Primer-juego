@@ -52,7 +52,7 @@ public class Server : MonoBehaviourPunCallbacks
         }
         else
         {
-            isConnecting = PhotonNetwork.ConnectUsingSettings();
+            PhotonNetwork.ConnectUsingSettings();
             PhotonNetwork.GameVersion = gameVersion;
         }
     }
@@ -89,7 +89,7 @@ public class Server : MonoBehaviourPunCallbacks
     {
         progressText.SetActive(false);
         controlPanel.SetActive(true);
-        isConnecting = false;
+        isConnecting = false;  
         Debug.LogWarningFormat("OnDisconnected() was called by PUN with reason {0}", cause);
     }
 
