@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Mision : MonoBehaviour
 {
-    public GameObject button = GameObject.FindWithTag("MissionButton");
+    public GameObject button;
     public GameObject missionPrefab;
     public GameObject playerCanvas;
     public bool playerClose;
 
     void Awake()
     {
-        button = GameObject.FindWithTag("MissionButton");
+        playerCanvas = GameObject.FindWithTag("CanvasPlayer");
+        button = playerCanvas.transform.GetChild(0).gameObject;
     }
 
     // Start is called before the first frame update
@@ -56,7 +57,6 @@ public class Mision : MonoBehaviour
 
     public void ActivatorMission()
     {
-        playerCanvas.gameObject.SetActive(false);
         Instantiate(missionPrefab);
     }
 }
