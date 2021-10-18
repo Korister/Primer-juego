@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement : MonoBehaviourPun
 {
     // Variable de tipo Vector en 2D para la sensibilidad
     public Vector2 sensibility;
@@ -17,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     // Variable para la velocidad del personaje
     private float speed = 7f;
     // Variable para guardar el Transform (posision y rotacion) de un objeto y el componente Rigidbody (fisicas) del objeto con este script
-    private Transform Camera;    
+    private Transform Camera;
     private Rigidbody Physics;
     //private Animator anim;
 
@@ -38,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(photonView.IsMine == false);
+        {
+            return;
+        }
         // Movimiento del personaje
         float ejeX = movJoy.Horizontal;
         float ejeZ = movJoy.Vertical;
@@ -61,33 +66,5 @@ public class PlayerMovement : MonoBehaviour
             angle = Mathf.Clamp(angle, -rotMax, rotMax);
             Camera.localEulerAngles = Vector3.right * angle;
         }
-
-        /*if(movJoy.Vertical >= 0.1)
-        {
-            run = 1;
-        }
-        else if(movJoy.Vertical <= -0.1)
-        {
-            run = -1;
-        }
-        else
-        {
-            run = 0;
-        }
-        if(movJoy.Horizontal >= 0.1)
-        {
-            runLeft = -1;
-        }
-        else if(movJoy.Horizontal <= -0.1)
-        {
-            runLeft = 1;
-        }
-        else
-        {
-            runLeft = 0;
-        }
-
-        anim.SetFloat("Run", run);
-        anim.SetFloat("RunLeft", runLeft);*/
     }
 }

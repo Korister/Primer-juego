@@ -446,6 +446,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5486179924198355900, guid: 49c516905d534d5488f6ec55b13fce07,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486179924198355900, guid: 49c516905d534d5488f6ec55b13fce07,
+        type: 3}
+      propertyPath: ObservedComponents.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5486179924198355900, guid: 49c516905d534d5488f6ec55b13fce07,
+        type: 3}
+      propertyPath: ObservedComponents.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7401715098855784628, guid: 49c516905d534d5488f6ec55b13fce07,
         type: 3}
       propertyPath: m_AnchorMax.x
@@ -485,6 +500,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156429922507612567, guid: 49c516905d534d5488f6ec55b13fce07,
+        type: 3}
+      propertyPath: sceneViewId
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 49c516905d534d5488f6ec55b13fce07, type: 3}
@@ -555,6 +575,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
+    - target: {fileID: 9020481493093569556, guid: e420edee60e788b4a9eabf14cc65bfe0,
+        type: 3}
+      propertyPath: playerPrefab
+      value: 
+      objectReference: {fileID: 5064120546638553664, guid: 49c516905d534d5488f6ec55b13fce07,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e420edee60e788b4a9eabf14cc65bfe0, type: 3}
 --- !u!1001 &7725827356487098532

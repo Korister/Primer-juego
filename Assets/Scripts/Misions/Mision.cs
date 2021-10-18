@@ -41,6 +41,7 @@ public class Mision : MonoBehaviour
     {
         if(other.tag == "Player")
         {
+            button.gameObject.SetActive(false);
             playerClose = false;
         }
     }
@@ -53,6 +54,7 @@ public class Mision : MonoBehaviour
     public void ActivateCanvas()
     {
         playerCanvas.gameObject.SetActive(true);
+        button.gameObject.SetActive(false);
     }
 
     public void ActivatorMission()
