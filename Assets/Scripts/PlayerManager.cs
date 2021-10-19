@@ -4,8 +4,24 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using Photon.Pun;
 
-public class PlayerManager : MonoBehaviourPunCallbacks
+public class PlayerManager : MonoBehaviourPunCallbacks, IPunObservable
 {
+    #region IPunObservable implementation
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        if(stream.IsWriting)
+        {
+            stream.SendNext(isAttacking);
+        }
+        else
+        {
+            this.isAttacking = (bool)stream.ReceiveNext();
+        }
+    }
+
+    #endregion
+
     #region Private Fields
 
     [SerializeField]
@@ -38,9 +54,9 @@ public class PlayerManager : MonoBehaviourPunCallbacks
 
     IEnumerator Attack()
     {
-            isAttacking = true;
-            yield return new WaitForSeconds(0.5f);
-            isAttacking = false;
+        isAttacking = true;
+        yield return new WaitForSeconds(0.5f);
+        isAttacking = false;
     }
 
     #endregion

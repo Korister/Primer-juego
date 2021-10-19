@@ -15,17 +15,12 @@ public class DealDamage : MonoBehaviour
         {
             // Obtener la variable damagePoints de la funcion Damage del script Health
             other.GetComponent<Health>().Damage(damagePoints);
+            StartCoroutine(Timeout());
         }
     }
 
-    // Funcion al seguir en contacto con el collider
-    private void OnTriggerStay(Collider other)
+    IEnumerator Timeout()
     {
-        // Si el objeto tiene el tag "Player"
-        if(other.tag == "Player")
-        {
-            // Obtener la variable damagePoints de la funcion Damage del script Health
-            other.GetComponent<Health>().Damage(damagePoints);
-        }
+        yield return new WaitForSeconds(2.0f);
     }
 }

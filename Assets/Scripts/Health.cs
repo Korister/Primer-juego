@@ -1,17 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 
-public class Health : MonoBehaviour
+public class Health : MonoBehaviourPunCallbacks
 {
     // variables 
     // vida del personaje
-    public int health = 10;
+    public int health = 3;
     // Vida maxima que puede tener
-    public int maxHealth = 10;
+    public int maxHealth = 3;
     // Estado (activo o desactivado) de la invulnerabilidad y el tiempo que dura
     public bool invencible = false;
     public float invulTime = 1f;
+
+    void Update()
+    {
+        if(health <= 0)
+        {
+            GameManager.Instance.LeaveRoom();
+        }
+    }
 
     // Funcion que se llama al recibir daño que hay que indicarle la variable damagePoints
     public void Damage(int damagePoints)

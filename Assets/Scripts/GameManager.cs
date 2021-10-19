@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 {
     #region Publics Fields
 
+    public static GameManager Instance;
     public GameObject playerPrefab;
 
     #endregion
@@ -27,6 +28,7 @@ public class GameManager : MonoBehaviourPunCallbacks
 
     void Start()
     {
+        Instance = this;
         if(playerPrefab == null)
         {
             Debug.LogError("Plase setup a playerPrefab for the GameManager");
