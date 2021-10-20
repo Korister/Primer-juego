@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 3574 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 8060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,29 +11,166 @@ C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/TOSHIBA/Primer juego
+C:/Users/Acer/Documents/GitHub/Primer-juego
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49537
-Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
-C:/Users/TOSHIBA/Primer juego
+64058
+Successfully changed project path to: C:/Users/Acer/Documents/GitHub/Primer-juego
+C:/Users/Acer/Documents/GitHub/Primer-juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 1005.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/TOSHIBA/Primer juego/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Acer/Documents/GitHub/Primer-juego/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 6310 Graphics (ID=0x9802)
-    Vendor:   ATI
-    VRAM:     373 MB
-    Driver:   15.201.1151.0
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4030 MB
+    Driver:   24.20.100.6286
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
 Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003555 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 123.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.782 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1782ms)
+		BeginReloadAssembly (78ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (661ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (244ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (308ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (133ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.073808 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.672 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1673ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (1369ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (507ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
+Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.4 MB.
+System memory in use after: 121.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 2.985400 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.429000 ms  DeleteObjects: 0.091700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Structures/Dispensador de comida.fbx
+  artifactKey: Guid(83bab191372ba214f9f7f21498cbf0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Structures/Dispensador de comida.fbx using Guid(83bab191372ba214f9f7f21498cbf0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285fa67a0b0f9b58e1f105051d3389ac') in 7.868988 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1262.990558 seconds.
+  path: Assets/Prefab/Structures/Dispensador de comida.prefab
+  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b0b712a399e3bf35ac5da3056f671c') in 0.164004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.158703 seconds.
+  path: Assets/Prefab/Structures/Dispensador de comida.prefab
+  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df806ca66d132b5c98151db1325db7a3') in 0.133399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 221.096989 seconds.
+  path: Assets/Prefab/Structures/Dispensador de comida.prefab
+  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dea74cc3d7d62f0190b9bc0f631d32') in 0.110788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.979061 seconds.
+  path: Assets/Prefab/Structures/Dispensador de comida.prefab
+  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc8ef81a727376a4c280437637df0ca') in 0.106216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.742815 seconds.
+  path: Assets/Prefab/Structures/Dispensador de comida.prefab
+  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000c01a40fbaa6b776f02e3b8b317bd3') in 0.157867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.453426 seconds.
+  path: Assets/Prefab/Structures/Dispensador de comida.prefab
+  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad6b4ea316b0f07cf40f47ca0499e0b') in 0.109119 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
