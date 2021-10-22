@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home Single Language; OS build 19043.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 8060 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 8060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ C:/Users/Acer/Documents/GitHub/Primer-juego
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64058
+53385
 Successfully changed project path to: C:/Users/Acer/Documents/GitHub/Primer-juego
 C:/Users/Acer/Documents/GitHub/Primer-juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 136.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 318.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
@@ -35,75 +35,75 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003555 seconds.
+Registered in 0.003820 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 123.39 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 139.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.782 seconds
+- Completed reload, in  2.052 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1782ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (2052ms)
+		BeginReloadAssembly (112ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (661ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (797ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (308ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (349ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (123ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (133ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.073808 seconds.
+Registered in 0.011889 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.672 seconds
+- Completed reload, in  2.225 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1673ms)
-		BeginReloadAssembly (214ms)
+	ReloadAssembly (2226ms)
+		BeginReloadAssembly (270ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (17ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1369ms)
-			LoadAssemblies (184ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1866ms)
+			LoadAssemblies (607ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (507ms)
+			SetupTypeCache (582ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (467ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (434ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (341ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (309ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -111,15 +111,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 0.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.44 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 121.4 MB.
+System memory in use before: 121.5 MB.
 System memory in use after: 121.7 MB.
 
 Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3764.
-Total: 2.985400 ms (FindLiveObjects: 0.299300 ms CreateObjectMapping: 0.164300 ms MarkObjects: 2.429000 ms  DeleteObjects: 0.091700 ms)
+Total: 2.978400 ms (FindLiveObjects: 0.332900 ms CreateObjectMapping: 0.159400 ms MarkObjects: 2.278800 ms  DeleteObjects: 0.206100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -134,43 +134,49 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Sprites/Structures/Dispensador de comida.fbx
-  artifactKey: Guid(83bab191372ba214f9f7f21498cbf0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Structures/Dispensador de comida.fbx using Guid(83bab191372ba214f9f7f21498cbf0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285fa67a0b0f9b58e1f105051d3389ac') in 7.868988 seconds 
+  path: Assets/Sprites/Structures/Pantallita de monitoreo.fbx
+  artifactKey: Guid(16ca1e8bf8184504588beea018e8567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Structures/Pantallita de monitoreo.fbx using Guid(16ca1e8bf8184504588beea018e8567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cc18c8929f406c71a853f0ff354c9a') in 4.991752 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1262.990558 seconds.
-  path: Assets/Prefab/Structures/Dispensador de comida.prefab
-  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b0b712a399e3bf35ac5da3056f671c') in 0.164004 seconds 
+  Time since last request: 156.944907 seconds.
+  path: Assets/Sprites/Structures/Pantallita de monitoreo.fbx
+  artifactKey: Guid(16ca1e8bf8184504588beea018e8567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Structures/Pantallita de monitoreo.fbx using Guid(16ca1e8bf8184504588beea018e8567e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ec04cde6398323c30028502b64c094e') in 0.100572 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.158703 seconds.
-  path: Assets/Prefab/Structures/Dispensador de comida.prefab
-  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df806ca66d132b5c98151db1325db7a3') in 0.133399 seconds 
+  Time since last request: 558.799184 seconds.
+  path: Assets/Prefab/Structures/Pantallita.prefab
+  artifactKey: Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Pantallita.prefab using Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0dea8751c3cfe2b55c271debc3c909') in 0.044830 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 221.096989 seconds.
-  path: Assets/Prefab/Structures/Dispensador de comida.prefab
-  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dea74cc3d7d62f0190b9bc0f631d32') in 0.110788 seconds 
+  Time since last request: 10.459302 seconds.
+  path: Assets/Prefab/Structures/Pantallita.prefab
+  artifactKey: Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Pantallita.prefab using Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955468e406705f3dec2c716b4af3c8e4') in 0.030668 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.979061 seconds.
-  path: Assets/Prefab/Structures/Dispensador de comida.prefab
-  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc8ef81a727376a4c280437637df0ca') in 0.106216 seconds 
+  Time since last request: 513.523553 seconds.
+  path: Assets/Prefab/Structures/Pantallita.prefab
+  artifactKey: Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Pantallita.prefab using Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e1c361a7ef7a4a25972b946344ba7cb') in 0.030931 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.742815 seconds.
-  path: Assets/Prefab/Structures/Dispensador de comida.prefab
-  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000c01a40fbaa6b776f02e3b8b317bd3') in 0.157867 seconds 
+  Time since last request: 11.079758 seconds.
+  path: Assets/Prefab/Structures/Pantallita.prefab
+  artifactKey: Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Pantallita.prefab using Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c21354e5ac00c1b309b2c7e928d528') in 0.082254 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 32.453426 seconds.
-  path: Assets/Prefab/Structures/Dispensador de comida.prefab
-  artifactKey: Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Structures/Dispensador de comida.prefab using Guid(29daf11ed9b90754e81dc4010b14c49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad6b4ea316b0f07cf40f47ca0499e0b') in 0.109119 seconds 
+  Time since last request: 300.856661 seconds.
+  path: Assets/Prefab/Structures/Pantallita.prefab
+  artifactKey: Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Pantallita.prefab using Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc4dfcb3b784605a14cc22e1bfe90790') in 0.036424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.632450 seconds.
+  path: Assets/Prefab/Structures/Pantallita.prefab
+  artifactKey: Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Pantallita.prefab using Guid(125dec08b1112374a8b3913a2321539c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e644dde283d3340da2f015561554b8') in 0.038580 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
