@@ -9,17 +9,17 @@ C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker0
+AssetImportWorker83
 -projectPath
 C:/Users/TOSHIBA/Primer juego
 -logFile
-Logs/AssetImportWorker0.log
+Logs/AssetImportWorker83.log
 -srvPort
 50105
 Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
 C:/Users/TOSHIBA/Primer juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 7505.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 746.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
@@ -31,3 +31,9 @@ Direct3D:
     Vendor:   ATI
     VRAM:     373 MB
     Driver:   15.201.1151.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56320
+Begin MonoManager ReloadAssembly

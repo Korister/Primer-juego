@@ -1,0 +1,207 @@
+Using pre-set license
+Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Education; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 3574 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker98
+-projectPath
+C:/Users/TOSHIBA/Primer juego
+-logFile
+Logs/AssetImportWorker98.log
+-srvPort
+50105
+Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
+C:/Users/TOSHIBA/Primer juego
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 702.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.10f1 (b15f561b2cef)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/TOSHIBA/Primer juego/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: AMD Radeon HD 6310 Graphics (ID=0x9802)
+    Vendor:   ATI
+    VRAM:     373 MB
+    Driver:   15.201.1151.0
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Registered in 0.010165 seconds.
+Refreshing native plugins compatible for Editor in 551.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8111ms)
+		BeginReloadAssembly (382ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (4ms)
+		EndReloadAssembly (3335ms)
+			LoadAssemblies (366ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1239ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (213ms)
+			SetupLoadedEditorAssemblies (1543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (552ms)
+				BeforeProcessingInitializeOnLoad (8ms)
+				ProcessInitializeOnLoadAttributes (733ms)
+				ProcessInitializeOnLoadMethodAttributes (234ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.052614 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\TOSHIBA\Primer juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\TOSHIBA\Primer juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Refreshing native plugins compatible for Editor in 3.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.412 seconds
+Domain Reload Profiling:
+	ReloadAssembly (8415ms)
+		BeginReloadAssembly (1065ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (108ms)
+		EndReloadAssembly (6910ms)
+			LoadAssemblies (675ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2756ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (396ms)
+			SetupLoadedEditorAssemblies (2319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (4ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (480ms)
+				ProcessInitializeOnLoadAttributes (1718ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (48ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (49ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.84 seconds
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3334 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.4 MB.
+System memory in use after: 141.6 MB.
+
+Unloading 40 unused Assets to reduce memory usage. Loaded Objects now: 3791.
+Total: 14.804300 ms (FindLiveObjects: 1.919000 ms CreateObjectMapping: 0.983200 ms MarkObjects: 11.728500 ms  DeleteObjects: 0.166000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_normal.png
+  artifactKey: Guid(88b02cf2f666d0c4ea5b6bcad3ae98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_normal.png using Guid(88b02cf2f666d0c4ea5b6bcad3ae98e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261797eb2dfa14d75be86ca77946b3eb') in 1.378084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002688 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_gloss.png
+  artifactKey: Guid(2e1f6aafc4b58a8479f0f5f758805898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_gloss.png using Guid(2e1f6aafc4b58a8479f0f5f758805898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad1dd008053019f0b088e403d60fff3') in 0.220977 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002246 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_diffuse.png
+  artifactKey: Guid(5ec157fcf2add66448ee3b4908663111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_diffuse.png using Guid(5ec157fcf2add66448ee3b4908663111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b4ef714cce8b67ea3a373186fb82d6') in 0.123101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001558 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_gloss.png
+  artifactKey: Guid(77a4cc78e743ba24f866125ee472be4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_gloss.png using Guid(77a4cc78e743ba24f866125ee472be4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07817526e2c84d2142d0789138880907') in 0.142337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002564 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_specular.png
+  artifactKey: Guid(ce3463e70efbfe04589aba54c161cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_specular.png using Guid(ce3463e70efbfe04589aba54c161cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3962b1793ff67318c0f5f6d96d1571b5') in 0.187062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001625 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_normal.png
+  artifactKey: Guid(e5dd80f9cbff3d249a02e47500cc034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_normal.png using Guid(e5dd80f9cbff3d249a02e47500cc034e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15d249870cc8d7ebb526d1da35fa482') in 0.098799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001279 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_diffuse.png
+  artifactKey: Guid(ee67ee8cf5a0c884a9527b07dd50f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Top_diffuse.png using Guid(ee67ee8cf5a0c884a9527b07dd50f55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e986cfe78caf0c87e44043e7b4873d') in 0.153224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001560 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2
+  artifactKey: Guid(9f809fa740a929e4aac60f625c3bd14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2 using Guid(9f809fa740a929e4aac60f625c3bd14e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0123fbec5b4074233bfed8ba7f5d6d00') in 0.032635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001410 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_diffuse.png
+  artifactKey: Guid(14d330ee58a233e43a2e6c2d675f50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_diffuse.png using Guid(14d330ee58a233e43a2e6c2d675f50eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3da9ac33a35cc80f0cd8461a8fcc6f') in 0.293177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001565 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_specular.png
+  artifactKey: Guid(6fca9079dbe0a264ba1a6e2a51a979b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Bottom_specular.png using Guid(6fca9079dbe0a264ba1a6e2a51a979b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22823aa738c71102987fcf70300ad33') in 0.158404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001586 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_gloss.png
+  artifactKey: Guid(0af45c0f7b3c76b43acfc6fe4a5353c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_gloss.png using Guid(0af45c0f7b3c76b43acfc6fe4a5353c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e779771dc18c42505845d705c554dd25') in 0.342136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001581 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_normal.png
+  artifactKey: Guid(6d2c11a61a6345d4d9ef4b683e03da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_normal.png using Guid(6d2c11a61a6345d4d9ef4b683e03da56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba65f36cdad844074e85e6925b572cd') in 0.118512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001250 seconds.
+  path: Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_specular.png
+  artifactKey: Guid(c4f16039f99b6934ba699ba085810847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Characters/Morge monstruo 2/Morge monstruo 2_Body_specular.png using Guid(c4f16039f99b6934ba699ba085810847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f911cf1e32e53954b1e6ef9d18e36037') in 0.242034 seconds 
