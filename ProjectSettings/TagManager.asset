@@ -10,6 +10,7 @@ TagManager:
   - CanvasPlayer
   - MissionPanel
   - MissionButton
+  - Joysticks
   layers:
   - Default
   - TransparentFX

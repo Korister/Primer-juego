@@ -1,9 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Photon.Pun;
 
-public class Health : MonoBehaviourPunCallbacks
+public class Health : MonoBehaviour
 {
     // variables 
     // vida del personaje
@@ -18,7 +17,6 @@ public class Health : MonoBehaviourPunCallbacks
     {
         if(health <= 0)
         {
-            GameManager.Instance.LeaveRoom();
         }
     }
 
