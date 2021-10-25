@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.1/release' branch; Version is '2021.1.10f1 (b15f561b2cef) revision 11624278'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Education; OS build 19042.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 3574 MB
+OS: 'Windows 10 Home Single Language; OS build 19043.1288; Version 2009; 64bit' Language: 'es' Physical Memory: 8060 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,23 +11,154 @@ C:\Program Files\Unity\Hub\Editor\2021.1.10f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/TOSHIBA/Primer juego
+C:/Users/Acer/Documents/GitHub/Primer-juego
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50105
-Successfully changed project path to: C:/Users/TOSHIBA/Primer juego
-C:/Users/TOSHIBA/Primer juego
+58403
+Successfully changed project path to: C:/Users/Acer/Documents/GitHub/Primer-juego
+C:/Users/Acer/Documents/GitHub/Primer-juego
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 7505.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 222.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.10f1 (b15f561b2cef)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/TOSHIBA/Primer juego/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Acer/Documents/GitHub/Primer-juego/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: AMD Radeon HD 6310 Graphics (ID=0x9802)
-    Vendor:   ATI
-    VRAM:     373 MB
-    Driver:   15.201.1151.0
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5916)
+    Vendor:   Intel
+    VRAM:     4030 MB
+    Driver:   24.20.100.6286
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.015406 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 111.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.739 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1739ms)
+		BeginReloadAssembly (79ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (674ms)
+			LoadAssemblies (75ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (235ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (331ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.245946 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Acer\Documents\GitHub\Primer-juego\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3150ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (2877ms)
+			LoadAssemblies (1337ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (515ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (698ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (494ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.22 seconds
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 121.5 MB.
+System memory in use after: 121.7 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 3764.
+Total: 3.111700 ms (FindLiveObjects: 0.324100 ms CreateObjectMapping: 0.224400 ms MarkObjects: 2.477300 ms  DeleteObjects: 0.084300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Structures/estanteria del juego.fbx
+  artifactKey: Guid(603a22f17189d134684cd1a8b865b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Structures/estanteria del juego.fbx using Guid(603a22f17189d134684cd1a8b865b9dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77049ed204f7b31a234615ba8053fce') in 2.914315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014766 seconds.
+  path: Assets/Sprites/Structures/Bodega o almacen.fbx
+  artifactKey: Guid(854d5f6e0b11e9a4b91d8fd6aeaffce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Structures/Bodega o almacen.fbx using Guid(854d5f6e0b11e9a4b91d8fd6aeaffce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6559b582a8b54dc405149fe868a0985b') in 1.398190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000675 seconds.
+  path: Assets/Sprites/Structures/Generador de energia.fbx
+  artifactKey: Guid(2d263542cb53a584ca59b745774f79f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Structures/Generador de energia.fbx using Guid(2d263542cb53a584ca59b745774f79f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15fc85875f011cb715f7d9accfe2c9e8') in 1.953334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1311.973975 seconds.
+  path: Assets/Prefab/Structures/Generador de energia.prefab
+  artifactKey: Guid(85a4a7ecc7e43dc499b33e98d3e142a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Generador de energia.prefab using Guid(85a4a7ecc7e43dc499b33e98d3e142a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2deb0f1136e64790396cdd5f85fbaae1') in 0.532076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.616466 seconds.
+  path: Assets/Prefab/Structures/Generador de energia.prefab
+  artifactKey: Guid(85a4a7ecc7e43dc499b33e98d3e142a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Structures/Generador de energia.prefab using Guid(85a4a7ecc7e43dc499b33e98d3e142a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd258983ebddd35086c462be269db63a7') in 0.039940 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
