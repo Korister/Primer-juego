@@ -39,10 +39,10 @@ public class PlayerMovement : MonoBehaviourPun
     // Update is called once per frame
     void Update()
     {
-        if(photonView.IsMine == false);
+        /*if(photonView.IsMine == false);
         {
             return;
-        }
+        }*/
         // Movimiento del personaje
         float ejeX = movJoy.Horizontal;
         float ejeZ = movJoy.Vertical;
