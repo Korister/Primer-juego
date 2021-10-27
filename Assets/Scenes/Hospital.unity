@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028328, g: 0.22571322, b: 0.30692163, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571385, b: 0.30692253, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -135,6 +135,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -209,6 +214,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -340,6 +350,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &96077609 stripped
@@ -359,6 +374,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -586,6 +606,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &115974049 stripped
@@ -605,6 +630,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pared (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720050210450082072, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8208147535300082917, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
         type: 3}
@@ -836,6 +866,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &123648872 stripped
@@ -855,6 +890,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -930,6 +970,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -1151,6 +1196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Techo
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b8ab6ff7d75c9fe498520fb72378056d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b8ab6ff7d75c9fe498520fb72378056d, type: 3}
 --- !u!4 &171689089 stripped
@@ -1244,6 +1294,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sillas de sala de espera (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
@@ -1340,6 +1395,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -1414,6 +1474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cuarto (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607885633696356031, guid: a8c614fefbd63734e98bfee13c7cdba8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7096478576143319216, guid: a8c614fefbd63734e98bfee13c7cdba8,
         type: 3}
@@ -1490,6 +1555,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pantallita (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
       propertyPath: m_RootOrder
@@ -1564,6 +1634,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -1640,6 +1715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -1714,6 +1794,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -1845,6 +1930,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &427666342 stripped
@@ -1881,7 +1971,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1556041901}
-  - {fileID: 543450653438756845}
   - {fileID: 2053944594}
   - {fileID: 543450653501563107}
   - {fileID: 7531593924948079638}
@@ -2012,6 +2101,7 @@ Transform:
   - {fileID: 171689089}
   - {fileID: 9161764693492037335}
   - {fileID: 469755429}
+  - {fileID: 543450653438756845}
   - {fileID: 119827961}
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -2158,6 +2248,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &447443604 stripped
@@ -2252,6 +2347,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Base de hojas (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380197167613609349, guid: c8370d412f437ac4dac55f058babd98b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5596323553622055095, guid: c8370d412f437ac4dac55f058babd98b,
         type: 3}
@@ -2383,6 +2483,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &492978249 stripped
@@ -2478,6 +2583,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pantallita (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
       propertyPath: m_RootOrder
@@ -2552,6 +2662,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -2758,6 +2873,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &582003343 stripped
@@ -2925,6 +3045,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cajonera (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
@@ -3151,6 +3276,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &703017006 stripped
@@ -3170,6 +3300,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pared (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720050210450082072, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8208147535300082917, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
         type: 3}
@@ -3251,6 +3386,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -3325,6 +3465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -3531,6 +3676,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &827187681 stripped
@@ -3606,6 +3756,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &830560845 stripped
@@ -3625,6 +3780,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -3700,6 +3860,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pared (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720050210450082072, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8208147535300082917, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
         type: 3}
@@ -3831,6 +3996,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &906349109 stripped
@@ -3850,6 +4020,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -3980,6 +4155,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sillas de sala de espera (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
@@ -4151,6 +4331,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -4301,6 +4486,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -4376,6 +4566,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pantallita (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
       propertyPath: m_RootOrder
@@ -4450,6 +4645,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -4581,6 +4781,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &1000459291 stripped
@@ -4600,6 +4805,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -4676,6 +4886,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -4750,6 +4965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -4881,6 +5101,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &1115267343 stripped
@@ -4956,6 +5181,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1126057701 stripped
@@ -4975,6 +5205,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -5106,6 +5341,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1159464027 stripped
@@ -5125,6 +5365,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Mesa (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254465138007075437, guid: a4dcd1698201803459676d93a01c7750,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5197733618259576728, guid: a4dcd1698201803459676d93a01c7750,
         type: 3}
@@ -5256,6 +5501,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1200085920 stripped
@@ -5275,6 +5525,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -5498,6 +5753,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1264704431 stripped
@@ -5517,6 +5777,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -5593,6 +5858,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5667,6 +5937,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cuarto (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607885633696356031, guid: a8c614fefbd63734e98bfee13c7cdba8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7096478576143319216, guid: a8c614fefbd63734e98bfee13c7cdba8,
         type: 3}
@@ -5743,6 +6018,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -5817,6 +6097,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -5893,6 +6178,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -5967,6 +6257,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -6173,6 +6468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &1434583472 stripped
@@ -6248,6 +6548,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &1451255539 stripped
@@ -6267,6 +6572,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -6342,6 +6652,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -6493,6 +6808,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -6623,6 +6943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1545691749 stripped
@@ -6717,6 +7042,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -6848,6 +7178,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1589442864 stripped
@@ -6923,6 +7258,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sillas de sala de espera (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!4 &1603593371 stripped
@@ -6942,6 +7282,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -7017,6 +7362,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -7147,6 +7497,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cajonera (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
@@ -7333,6 +7688,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -7463,6 +7823,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dispensador de comida (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6856213804437469730, guid: 29daf11ed9b90754e81dc4010b14c49e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29daf11ed9b90754e81dc4010b14c49e, type: 3}
 --- !u!4 &1698224309 stripped
@@ -7482,6 +7847,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -7699,6 +8069,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pantallita (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
       propertyPath: m_RootOrder
@@ -7773,6 +8148,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -7904,6 +8284,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1763524793 stripped
@@ -7923,6 +8308,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -7999,6 +8389,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -8073,6 +8468,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -8149,6 +8549,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -8223,6 +8628,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -8354,6 +8764,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cajonera (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1880758123 stripped
@@ -8373,6 +8788,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pared (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720050210450082072, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8208147535300082917, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
         type: 3}
@@ -8459,6 +8879,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cama (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
       propertyPath: m_RootOrder
@@ -8533,6 +8958,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pantallita (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
@@ -8609,6 +9039,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cuarto
       objectReference: {fileID: 0}
+    - target: {fileID: 6607885633696356031, guid: a8c614fefbd63734e98bfee13c7cdba8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7096478576143319216, guid: a8c614fefbd63734e98bfee13c7cdba8,
         type: 3}
       propertyPath: m_RootOrder
@@ -8683,6 +9118,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cama (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -8759,6 +9199,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -8833,6 +9278,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pared (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720050210450082072, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8208147535300082917, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
         type: 3}
@@ -8909,6 +9359,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Perchero
       objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
       propertyPath: m_RootOrder
@@ -8984,6 +9439,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pantallita (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 778603395764891975, guid: 125dec08b1112374a8b3913a2321539c,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 956760890593722578, guid: 125dec08b1112374a8b3913a2321539c,
         type: 3}
       propertyPath: m_RootOrder
@@ -9058,6 +9518,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Perchero (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5082760760943535374, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7794652757219544785, guid: 9de088cd7ebd46247aa6b30ae27f6ca2,
         type: 3}
@@ -9294,6 +9759,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: cajonera
       objectReference: {fileID: 0}
+    - target: {fileID: 2717136590518960498, guid: f99aaaf465c5b614291b1d765b99ac4d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99aaaf465c5b614291b1d765b99ac4d, type: 3}
 --- !u!4 &1110203030037742990 stripped
@@ -9313,6 +9783,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Base de hojas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1380197167613609349, guid: c8370d412f437ac4dac55f058babd98b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5596323553622055095, guid: c8370d412f437ac4dac55f058babd98b,
         type: 3}
@@ -9409,6 +9884,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'camilla de hospital '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544580330481485410, guid: cec86eba5539f6543910a24ebed92623,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7714081564161599762, guid: cec86eba5539f6543910a24ebed92623,
         type: 3}
@@ -9603,6 +10083,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: sillas de sala de espera
       objectReference: {fileID: 0}
+    - target: {fileID: 2976510698239224493, guid: 5082e2553790afd4a88b16a0d3a2691a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5082e2553790afd4a88b16a0d3a2691a, type: 3}
 --- !u!1001 &2616353044687362125
@@ -9681,6 +10166,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Puertas principales
+      objectReference: {fileID: 0}
+    - target: {fileID: 4553650205908276685, guid: f4a293d0582d8c9459e99781acbe5f1f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4a293d0582d8c9459e99781acbe5f1f, type: 3}
@@ -9784,7 +10274,7 @@ PrefabInstance:
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: -60
       objectReference: {fileID: 0}
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
@@ -9794,12 +10284,12 @@ PrefabInstance:
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 20
+      value: -64.5
       objectReference: {fileID: 0}
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
@@ -9809,7 +10299,7 @@ PrefabInstance:
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
@@ -9824,7 +10314,7 @@ PrefabInstance:
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 180
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3873873039056937927, guid: fe07a306ab8faec45b8079f505384b6a,
         type: 3}
@@ -9915,6 +10405,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dispensador de comida
       objectReference: {fileID: 0}
+    - target: {fileID: 6856213804437469730, guid: 29daf11ed9b90754e81dc4010b14c49e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29daf11ed9b90754e81dc4010b14c49e, type: 3}
 --- !u!4 &4635862840868718526 stripped
@@ -9934,6 +10429,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cortinas del juego uwu.blend1
+      objectReference: {fileID: 0}
+    - target: {fileID: 121967933624495409, guid: 1ae2f3d4b338dd2418ddb37dbd5124c1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6467216947955784131, guid: 1ae2f3d4b338dd2418ddb37dbd5124c1,
         type: 3}
@@ -10079,6 +10579,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mesa
       objectReference: {fileID: 0}
+    - target: {fileID: 4254465138007075437, guid: a4dcd1698201803459676d93a01c7750,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5197733618259576728, guid: a4dcd1698201803459676d93a01c7750,
         type: 3}
       propertyPath: m_RootOrder
@@ -10216,6 +10721,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Cuarto (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6607885633696356031, guid: a8c614fefbd63734e98bfee13c7cdba8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7096478576143319216, guid: a8c614fefbd63734e98bfee13c7cdba8,
         type: 3}
@@ -10454,7 +10964,7 @@ PrefabInstance:
     - target: {fileID: 2396880014381528941, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -140
+      value: -207.07
       objectReference: {fileID: 0}
     - target: {fileID: 2396880014381528941, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
@@ -10464,7 +10974,7 @@ PrefabInstance:
     - target: {fileID: 2396880014381528941, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -36
+      value: -71.43
       objectReference: {fileID: 0}
     - target: {fileID: 2396880014381528941, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
@@ -10519,12 +11029,12 @@ PrefabInstance:
     - target: {fileID: 3771166533327703601, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3771166533327703601, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.2
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 3771166533327703601, guid: 85a4a7ecc7e43dc499b33e98d3e142a5,
         type: 3}
@@ -10789,6 +11299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pared
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720050210450082072, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8208147535300082917, guid: 4a5798ddacf9d994ab2d05aec87bc4fb,
         type: 3}

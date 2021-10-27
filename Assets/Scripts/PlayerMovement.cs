@@ -49,7 +49,9 @@ public class PlayerMovement : MonoBehaviourPun
         float rotationX = camJoy.Horizontal * sensibility.x;
         float rotationY = camJoy.Vertical * sensibility.y;
 
-        transform.Translate(new Vector3(ejeX, 0.0f, ejeZ) * Time.deltaTime * speed);
+        transform.Translate(new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical")) * Time.deltaTime * speed);
+
+        //transform.Translate(new Vector3(ejeX, 0.0f, ejeZ) * Time.deltaTime * speed);
         
         // Si la variable rotationX es diferente a 0
         if(rotationX != 0)
