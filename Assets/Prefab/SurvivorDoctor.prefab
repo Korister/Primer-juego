@@ -1132,7 +1132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3873873038906674041}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.6249999, z: 0.2}
+  m_LocalPosition: {x: 0, y: 1.6249999, z: 0.15}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 3873873039056937927}
@@ -1310,8 +1310,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1551176089932120250, guid: 8ee10179fd6b7094a9c79ce9ffd64fb7,
-          type: 3}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PlayButtomControl, Assembly-CSharp
         m_MethodName: ChangeScene
         m_Mode: 3
@@ -1340,7 +1339,7 @@ GameObject:
   - component: {fileID: 3873873039056937929}
   m_Layer: 0
   m_Name: SurvivorDoctor
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1481,7 +1480,7 @@ GameObject:
   - component: {fileID: 3873873039665507307}
   m_Layer: 5
   m_Name: Canvas
-  m_TagString: Untagged
+  m_TagString: CanvasPlayer
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1823,7 +1822,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 7481515228824371878}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: MisionMotor, Assembly-CSharp
+        m_MethodName: OnPress
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3915290948123745800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2179,7 +2190,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &4358683165592863236
 RectTransform:
   m_ObjectHideFlags: 0
