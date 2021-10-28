@@ -6,10 +6,10 @@ using UnityEngine.UI;
 public class MisionMotor : MonoBehaviour
 {
     [SerializeField]
-    private GameObject cameraPlayer;
     private GameObject button;
     private GameObject canvasPlayer;
     private GameObject canvasJoysticks;
+    private Animator anim;
     
     public Slider slider;
     public float sliderValue;
@@ -28,28 +28,33 @@ public class MisionMotor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        button.gameObject.SetActive(playerClose);
+        if(Input.GetKeyDown("space"))
+        {
+            OnPress();
+        }
+        //button.gameObject.SetActive(playerClose);
         if(reparing == true && isComplete == false)
         {
-            canvasJoysticks.gameObject.SetActive(false);
+            //canvasJoysticks.gameObject.SetActive(false);
             StartCoroutine(Cont());
             if(slider.value == 100f)
             {
                 isComplete = true;
-                reparing = false; 
+                reparing = false;
+                anim.SetBool("Reparing", reparing);
             }
         }
         if(reparing == false && isComplete == false)
         {
-            canvasJoysticks.gameObject.SetActive(true);
+            //canvasJoysticks.gameObject.SetActive(true);
             StopCoroutine(Cont());
         }
         if(isComplete == true)
         {
             reparing = false;
             StopCoroutine(Cont());
-            canvasJoysticks.gameObject.SetActive(true);
-            button.gameObject.SetActive(false);
+            //canvasJoysticks.gameObject.SetActive(true);
+            //button.gameObject.SetActive(false);
         }
     }
 
@@ -58,6 +63,7 @@ public class MisionMotor : MonoBehaviour
         if(other.tag == "Player")
         {
             playerClose = true;
+            anim = other.GetComponent<Animator>();
         }
     }
 
@@ -74,10 +80,12 @@ public class MisionMotor : MonoBehaviour
         if(reparing == false)
         {
             reparing = true;
+            anim.SetBool("Reparing", reparing);
         }
         else
         {
             reparing = false;
+            anim.SetBool("Reparing", reparing);
         }
     }
 

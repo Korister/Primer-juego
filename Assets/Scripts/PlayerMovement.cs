@@ -20,7 +20,7 @@ public class PlayerMovement : MonoBehaviourPun
     // Variable para guardar el Transform (posision y rotacion) de un objeto y el componente Rigidbody (fisicas) del objeto con este script
     private Transform Camera;
     private Rigidbody Physics;
-    //private Animator anim;
+    private Animator anim;
 
     // Start is called before the first frame update
     void Start()
@@ -33,7 +33,7 @@ public class PlayerMovement : MonoBehaviourPun
         Camera = transform.Find("PlayerCamera");
         // Busca el componente Rigidbody del objeto con este script
         Physics = GetComponent<Rigidbody>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -44,14 +44,21 @@ public class PlayerMovement : MonoBehaviourPun
             return;
         }*/
         // Movimiento del personaje
-        float ejeX = movJoy.Horizontal;
-        float ejeZ = movJoy.Vertical;
+        //float ejeX = movJoy.Horizontal;
+        //float ejeZ = movJoy.Vertical;
+        float ejeX = Input.GetAxis("Horizontal");
+        float ejeZ = Input.GetAxis("Vertical");
         float rotationX = camJoy.Horizontal * sensibility.x;
         float rotationY = camJoy.Vertical * sensibility.y;
 
-        transform.Translate(new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical")) * Time.deltaTime * speed);
+        //transform.Translate(new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical")) * Time.deltaTime * speed);
 
-        //transform.Translate(new Vector3(ejeX, 0.0f, ejeZ) * Time.deltaTime * speed);
+        transform.Translate(new Vector3(ejeX, 0.0f, ejeZ) * Time.deltaTime * speed);
+
+        if(ejeZ >= 0.1)
+        {
+            anim.SetFloat("Run", 1);
+        }
         
         // Si la variable rotationX es diferente a 0
         if(rotationX != 0)
